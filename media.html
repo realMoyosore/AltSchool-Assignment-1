@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Moyosore</title>
+  </head>
+  <body>
+    <div class="media-full-page">
+      <div class="text-section">
+        <h2 id="main-heading">Moyosore's Aspirations</h2>
+        <p id="sub-text">
+          Innovation doesn't rest in the perfection of what exists, but in the
+          courage to imagine what doesn't. Every line of code
+          <strong>WE</strong> write, every circuit <strong>WE</strong> connect,
+          and every algorithm <strong>WE</strong> design has the potential to
+          transform lives, bridge gaps, and create futures yet unseen.
+          <br />
+          <strong
+            ><em
+              >"So, dare to dream beyond the boundaries of today, for the
+              technologies of tomorrow are born in the aspirations of today.</em
+            ></strong
+          >"
+        </p>
+      </div>
+      <div class="image-group">
+        <div class="image-first-choice">
+          <img
+            src="/assets/images/photo_self1.jpg"
+            alt="Photo of Moyosore"
+            id="first-img"
+            width="500px"
+            height="500px"
+          />
+        </div>
+        <div class="image-second-choice">
+          <img
+            src="/assets/images/photo_self2.jpg"
+            alt="Photo of Moyosore"
+            id="second-img"
+            width="500px"
+            height="500px"
+          />
+        </div>
+        <div class="image-third-choice">
+          <img
+            src="/assets/images/photo_self3.jpeg"
+            alt="Photo of Moyosore"
+            id="third-img"
+            width="500px"
+            height="500px"
+          />
+        </div>
+      </div>
+      <div class="fav-audio">
+        <audio
+          src="/assets/audio/Study Lofi Sound.m4a"
+          controls
+          id="audio-choice"
+        ></audio>
+      </div>
+      <div class="fav-video">
+        <video
+          src="/assets/videos/Avala Tower Serbia.mp4"
+          alt="Stunning aerial view of Avala Tower, Serbia by Nikola Kojevic"
+          title="Stunning aerial view of Avala Tower, Serbia by Nikola Kojevic"
+          controls
+          id="video-choice"
+          width="640px"
+          height="360px"
+          autoplay
+          muted
+        ></video>
+      </div>
+      <div>
+        <div>
+          <button onclick="goTop()" id="top-btn" title="Go to top">
+            Go up
+          </button>
+        </div>
+        <script>
+          let topButton = document.getElementById("top-btn");
+          function goTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+        </script>
+        <div>
+          <button onclick="document.location='index.html'">Biography</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
